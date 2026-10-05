@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="nl" data-lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Karel Decherf — AI-agent &amp; LLM-ontwikkelaar</title>
+<meta name="description" content="Karel Decherf — AI-agent- en LLM-ontwikkelaar. Drie klikbare bewijzen: een MIT-governance-capsule voor AI-agents, een machine-leesbare canon, en een live productie-app.">
+<link rel="canonical" href="https://kareltestspecial.github.io/ai-proof/">
+<meta property="og:title" content="Karel Decherf — AI-agent &amp; LLM-ontwikkelaar">
+<meta property="og:description" content="Drie klikbare bewijzen: agent-governance (MIT, 24★), machine-leesbare canon, live productie-app.">
+<meta property="og:type" content="website">
+<meta name="robots" content="index,follow">
+<style>
+  :root{
+    --bg:#0d1117; --bg2:#161b22; --fg:#e6edf3; --mut:#8b949e;
+    --line:#30363d; --acc:#4c9aff; --acc2:#3fb950; --warn:#d29922;
+    --max:820px;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#ffffff; --bg2:#f6f8fa; --fg:#1f2328; --mut:#59636e;
+           --line:#d1d9e0; --acc:#0969da; --acc2:#1a7f37; --warn:#9a6700; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  .wrap{max-width:var(--max);margin:0 auto;padding:40px 20px 72px}
+  a{color:var(--acc)}
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.9em}
+
+  header{border-bottom:1px solid var(--line);padding-bottom:24px;margin-bottom:32px}
+  h1{font-size:1.9rem;line-height:1.25;margin:0 0 6px}
+  .sub{color:var(--mut);font-size:1.02rem;margin:0}
+  .meta{color:var(--mut);font-size:.9rem;margin-top:14px}
+
+  .lang{position:absolute;top:16px;right:20px;display:flex;gap:6px}
+  .lang button{font:inherit;font-size:.82rem;padding:4px 10px;border-radius:6px;
+    border:1px solid var(--line);background:var(--bg2);color:var(--mut);cursor:pointer}
+  .lang button[aria-pressed="true"]{color:var(--fg);border-color:var(--acc)}
+
+  h2{font-size:1.15rem;margin:40px 0 14px;letter-spacing:.01em}
+  h2:first-of-type{margin-top:0}
+
+  .lede{font-size:1.05rem}
+  .card{border:1px solid var(--line);background:var(--bg2);border-radius:10px;
+    padding:20px;margin:0 0 16px}
+  .card h3{margin:0 0 4px;font-size:1.06rem}
+  .tag{display:inline-block;font-size:.72rem;letter-spacing:.04em;text-transform:uppercase;
+    color:var(--mut);border:1px solid var(--line);border-radius:999px;padding:1px 9px;margin-bottom:10px}
+  .card p{margin:10px 0 0;color:var(--fg)}
+  .card .proof{margin-top:12px;padding-top:12px;border-top:1px dashed var(--line);
+    font-size:.94rem;color:var(--mut)}
+  .card .proof b{color:var(--acc2);font-weight:600}
+  .cta{display:inline-block;margin-top:14px;padding:8px 14px;border:1px solid var(--acc);
+    border-radius:7px;color:var(--acc);text-decoration:none;font-size:.93rem;font-weight:600}
+  .cta:hover{background:var(--acc);color:var(--bg)}
+
+  ul.tight{margin:8px 0 0;padding-left:20px}
+  ul.tight li{margin:4px 0}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}
+  .note{font-size:.9rem;color:var(--mut);border-left:3px solid var(--line);padding-left:14px;margin:16px 0 0}
+  footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--line);
+    color:var(--mut);font-size:.9rem}
+  [data-lang="nl"] .en{display:none}
+  [data-lang="en"] .nl{display:none}
+</style>
+</head>
+<body>
+<div class="lang" role="group" aria-label="Taal / Language">
+  <button id="btn-nl" aria-pressed="true" onclick="setLang('nl')">NL</button>
+  <button id="btn-en" aria-pressed="false" onclick="setLang('en')">EN</button>
+</div>
+
+<div class="wrap">
+
+<header>
+  <h1>Karel Decherf</h1>
+  <p class="sub">
+    <span class="nl">AI-agent- en LLM-ontwikkelaar. Ik bouw dingen die draaien — en ik maak AI-agents bestuurbaar.</span>
+    <span class="en">AI-agent and LLM developer. I build things that run — and I make AI agents governable.</span>
+  </p>
+  <p class="meta">
+    <a href="mailto:karel.decherf@gmail.com">karel.decherf@gmail.com</a> ·
+    <a href="https://github.com/KarelTestSpecial">github.com/KarelTestSpecial</a> ·
+    <a href="https://linkedin.com/in/karel-decherf-bb0b7140a">LinkedIn</a>
+  </p>
+  <p class="meta">
+    <span class="nl">Nederlands (moedertaal) · Engels · Frans · <strong>Beschikbaar vanaf november 2026</strong> · Gent &amp; Lede · remote of hybrid</span>
+    <span class="en">Dutch (native) · English · French · <strong>Available from November 2026</strong> · Ghent &amp; Lede · remote or hybrid</span>
+  </p>
+</header>
+
+<h2>
+  <span class="nl">Drie klikbare bewijzen</span>
+  <span class="en">Three clickable proofs</span>
+</h2>
+
+<div class="card">
+  <span class="tag"><span class="nl">Hoofd-bewijs</span><span class="en">Primary proof</span></span>
+  <h3><span class="nl">Agent-governance capsule — <code>real-agent-setup</code></span><span class="en">Agent-governance capsule — <code>real-agent-setup</code></span></h3>
+  <p>
+    <span class="nl">Een MIT-licentie, PII-vrije capsule die <em>elke</em> AI-coding-agent van een team aan dezelfde mandates bindt: secrets-discipline, least-privilege, een PII-poort in git, en een harde grens dat een agent nooit zelf een mail verzendt. M'n eigen team draait erop — Claude Code, OpenCode, Antigravity en Gemini delen letterlijk dezelfde regels.</span>
+    <span class="en">An MIT-licensed, PII-free capsule that binds <em>every</em> AI coding agent in a team to the same mandates: secret discipline, least privilege, a PII gate in git, and a hard rule that an agent never sends an email on its own. My own team runs on it — Claude Code, OpenCode, Antigravity and Gemini literally share the same rules.</span>
+  </p>
+  <div class="proof">
+    <span class="nl"><b>24 sterren op GitHub</b> · MIT · installeerbaar · alles publiekelijk te lezen. Dit is het artefact waar ik op geselecteerd zou willen worden.</span>
+    <span class="en"><b>24 stars on GitHub</b> · MIT · installable · fully public. This is the artefact I would want to be selected on.</span>
+  </div>
+  <a class="cta" href="https://github.com/KarelTestSpecial/real-agent-setup">github.com/KarelTestSpecial/real-agent-setup</a>
+</div>
+
+<div class="card">
+  <span class="tag"><span class="nl">Machine-leesbaar</span><span class="en">Machine-readable</span></span>
+  <h3><span class="nl">Een canon die een machine kan lezen</span><span class="en">A canon a machine can read</span></h3>
+  <p>
+    <span class="nl">Ik publiceer canonieke teksten als machineleesbaar materiaal: een <code>llms.txt</code>, een zin-criterium, een sitemap en een <code>LICENSE.md</code> — bewust geschreven als bruikbare trainingsdata én evaluatieset, in plaats van als marketingtekst. Dit is het patroon dat ik in elk AI-team wil introduceren.</span>
+    <span class="en">I publish canonical texts as machine-readable material: an <code>llms.txt</code>, a criterion document, a sitemap and a <code>LICENSE.md</code> — deliberately written as usable training data and an evaluation set rather than as marketing copy. This is the pattern I want to introduce in any AI team.</span>
+  </p>
+  <div class="proof">
+    <span class="nl"><b>Live en geldig.</b> De <code>llms.txt</code> is 1.697 bytes en rechtstreeks ophaalbaar — geen omweg, geen redirect.</span>
+    <span class="en"><b>Live and valid.</b> The <code>llms.txt</code> is 1,697 bytes and directly fetchable — no detour, no redirect.</span>
+  </div>
+  <a class="cta" href="https://kareltestspecial.github.io/zingeving/llms.txt">kareltestspecial.github.io/zingeving/llms.txt</a>
+</div>
+
+<div class="card">
+  <span class="tag"><span class="nl">In productie</span><span class="en">In production</span></span>
+  <h3><span class="nl">Een app die vandaag draait</span><span class="en">An app that runs today</span></h3>
+  <p>
+    <span class="nl">Geen demo, geen screenshot: een werkende webapplicatie die ik zelf heb gebouwd en zelf draaiende houd — Vite + TypeScript, Firebase Hosting, Firestore, deploy via CI. Inclusief een AI-gestuurd sorteer- en scoringssysteem over honderden documenten, en een meertalige interface.</span>
+    <span class="en">Not a demo, not a screenshot: a working web application I built and keep running myself — Vite + TypeScript, Firebase Hosting, Firestore, deployed through CI. Including an AI-driven ranking and scoring system over hundreds of documents, and a multilingual interface.</span>
+  </p>
+  <div class="proof">
+    <span class="nl"><b>Bereikbaar op het moment dat u dit leest.</b> Probeer het — dat is het punt.</span>
+    <span class="en"><b>Reachable at the moment you read this.</b> Try it — that is the point.</span>
+  </div>
+  <a class="cta" href="https://kdc-apps.web.app/">kdc-apps.web.app</a>
+</div>
+
+<h2>
+  <span class="nl">Wat ik nog meebreng</span>
+  <span class="en">What else I bring</span>
+</h2>
+
+<div class="grid">
+  <div class="card">
+    <h3><span class="nl">30+ openbare repositories</span><span class="en">30+ public repositories</span></h3>
+    <p><span class="nl">Kleine, werkende dingen — Chrome-extensies, datatools, sites. Het punt is niet de grootte, maar de snelheid van opleveren.</span>
+      <span class="en">Small, working things — Chrome extensions, data tools, sites. The point is not size but shipping rate.</span></p>
+    <a class="cta" href="https://github.com/KarelTestSpecial?tab=repositories">github.com/KarelTestSpecial</a>
+  </div>
+  <div class="card">
+    <h3><span class="nl">Hoe ik werk</span><span class="en">How I work</span></h3>
+    <p><span class="nl">Schriftelijke spec → tests → git met een PII-poort → CI. Ik documenteer beslissingen en hun grondslag, niet alleen de uitkomst.</span>
+      <span class="en">Written spec → tests → git with a PII gate → CI. I document decisions and their rationale, not just the outcome.</span></p>
+  </div>
+  <div class="card">
+    <h3><span class="nl">Talen</span><span class="en">Languages</span></h3>
+    <p><span class="nl">Nederlands, Engels en Frans in werk en correspondentie. Merkt u zich iets in het Nederlands of Frans wilt preciseren, dan kan dat.</span>
+      <span class="en">Dutch, English and French in work and correspondence. If something needs clarifying in Dutch or French, that is fine.</span></p>
+  </div>
+</div>
+
+<p class="note">
+  <span class="nl">Deze pagina is bewust met de hand geschreven en bevat geen analytics, geen tracking en geen cookies. De drie links hierboven zijn openbaar en controleerbaar — u kunt ze alle drie zelf openen voordat u verder leest.</span>
+  <span class="en">This page is deliberately hand-written and contains no analytics, no tracking and no cookies. The three links above are public and verifiable — you can open all three yourself before reading further.</span>
+</p>
+
+<footer>
+  <p><span class="nl">CV (NL, EN): <a href="https://kareltestspecial.github.io/portfolio/">kareltestspecial.github.io/portfolio</a> ·
+  Contact: <a href="mailto:karel.decherf@gmail.com">karel.decherf@gmail.com</a></span>
+  <span class="en">CV (NL, EN): <a href="https://kareltestspecial.github.io/portfolio/">kareltestspecial.github.io/portfolio</a> ·
+  Contact: <a href="mailto:karel.decherf@gmail.com">karel.decherf@gmail.com</a></span></p>
+  <p><span class="nl">Verzonden met de logistieke en taalkundige ondersteuning van Maccha, de AI personal assistant die ik zelf heb ontworpen.</span>
+  <span class="en">Sent with the logistical and language support of Maccha, the AI personal assistant I designed myself.</span></p>
+</footer>
+
+</div>
+<script>
+function setLang(l){
+  document.documentElement.setAttribute('data-lang', l);
+  document.getElementById('btn-nl').setAttribute('aria-pressed', String(l==='nl'));
+  document.getElementById('btn-en').setAttribute('aria-pressed', String(l==='en'));
+}
+// Standaard is Nederlands. Auto-detect op browser-taal is bewust UIT:
+// de doelgroep is Vlaams, en een werkgever die per ongeluk eenEngelse pagina
+// ziet, denkt dat je de NL-versie niet hebt gemaakt.
+(function(){
+  var saved = null;
+  try { saved = localStorage.getItem('proof-lang'); } catch(e) {}
+  if (saved === 'en') setLang('en');
+})();
+</script>
+</body>
+</html>
